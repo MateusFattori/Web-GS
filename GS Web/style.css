@@ -92,7 +92,7 @@ transition: 0.5s;
 
    display: flex;
    flex-direction: row;
-   background-color: rgb(21, 44, 24);
+   background-color: rgb(41, 92, 48);
    justify-content: center;
    align-items: center;
    padding-top: 50px;
@@ -104,6 +104,9 @@ transition: 0.5s;
     padding: 30px ;
     color: white;
     text-align: center;
+    background-color: rgb(21, 44, 24);
+    margin-left: 10px;
+    border-radius: 15px;
     
 
 }
@@ -118,11 +121,45 @@ padding-top: 30px;
 
 font-size: 35px;
 color: white;
-background-color: rgb(21, 44, 24);
+background-color: rgb(34, 76, 39);
 text-align: center;
 padding-top: 50px;
+padding-bottom: 40px;
 
 }
+
+
+.Boxbotaoprojeto{
+
+    background-color: rgb(41, 92, 48);
+    padding: 60px;
+    text-align: center;
+    
+
+}
+
+.botaoprojeto{
+
+    font-size: 23px;
+    transition: 0.4s;
+    background-color: rgb(21, 44, 24);
+    padding: 10px;
+    border-radius: 15px;
+
+
+
+}
+
+.botaoprojeto:hover{
+
+    font-size: 23px;
+    background-color: rgba(255, 255, 255, 0.338);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
 
 footer{
 
