@@ -1,48 +1,27 @@
-
 *{
 
-margin: 0;
-padding: 0;
-box-sizing: 0;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 
 }
 
 body{
 
-    width: 100%;
-    min-height: 100vh;
-    overflow-y: scroll;
-    scrollbar-width: thin;
-    scrollbar-color: transparent transparent;
- 
-    font-family: 'Inter', sans-serif;
- 
+   width: 100%;
+   min-height: 100vh;
+   overflow-y: scroll;
+   scrollbar-width: thin;
+   scrollbar-color: transparent transparent;
+
+   font-family: 'Roboto', sans-serif;
+
 }
- 
+
 body::-webkit-scrollbar {
-     width: 0px; 
-    
-}
- 
-
-a{
-    text-decoration: none;
-    color: white;
-    font-size: 17px;
-    transition: 0.3s;
-}
-
-a:hover{
-
-color: rgb(0, 188, 0);
-font-size: 17px;
-transition: 0.5s;
-
-}
-
-
-
+    width: 0px; 
+  }
 
 .BoxContainerCabecalho{
 
@@ -51,6 +30,164 @@ transition: 0.5s;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(21, 44, 24);
+    
     padding: 15px;
+}
+
+a{
+
+  text-decoration: none;
+}
+
+.linkNav{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    transition: 0.3s;
+    -webkit-text-stroke: 0.3px
+    
+}
+
+.linkNav:hover{
+
+color: rgb(0, 188, 0);
+font-size: 17px;
+transition: 0.5s;
+
+}
+
+
+.ContainerUs{
+
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagesUs/backUs.png);
+    background-size: cover;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+
+}
+
+.BoxTextUs{
+
+    color: white;
+    max-width: 38%;
+    padding-top: 80px;
+    
+
+}
+
+.BoxText{
+
+    margin-bottom: 30px;
+
+}
+
+
+
+
+.linkContato{
+
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.068);
+    transition: 0.3s;
+    
+    
+
+}
+
+.linkContato:hover{
+
+
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.178);
+    transition: 0.3s;
+
+}
+
+.videoBox{
+    background-color: white;
+    padding: 70px;
+
+}
+
+.video{
+
+display: flex;
+justify-content: space-between;
+background-color: rgb(236, 236, 236);
+padding: 30px;
+
+
+}
+
+.videoTexto{
+
+max-width: 40%;
+color: black;
+
+
+
+}
+
+.linkProjeto{
+
+    background-color: rgb(197, 197, 197);
+    padding: 10px;
+    color: black;
+    border-radius: 13px;
+    transition: 0.3s;
+}
+
+.linkProjeto:hover{
+
+    background-color: rgb(179, 179, 179);
+    color: white;
+    transition: 0.3s;
+}
+
+
+
+
+
+.texto{
+
+padding-bottom: 25px;
+
+
+}
+
+.brandwhite{
+
+    width: 150px;
+    
+    }
+    
+    
+footer{
+    
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    color: white;
+    
+}
+    
+.integrantes{
+    
+    padding-left: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    
 }

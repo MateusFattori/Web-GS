@@ -15,7 +15,7 @@ body{
    scrollbar-width: thin;
    scrollbar-color: transparent transparent;
 
-   font-family: 'Inter', sans-serif;
+   font-family: 'Roboto', sans-serif;
 
 }
 
@@ -30,17 +30,25 @@ body::-webkit-scrollbar {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(21, 44, 24);
+    
     padding: 15px;
 }
 
 a{
-    text-decoration: none;
-    color: white;
-    font-size: 17px;
+
+  text-decoration: none;
 }
 
-a:hover{
+.linkNav{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    transition: 0.3s;
+    -webkit-text-stroke: 0.3px
+    
+}
+
+.linkNav:hover{
 
 color: rgb(0, 188, 0);
 font-size: 17px;
@@ -89,12 +97,100 @@ transition: 0.5s;
 }
 
 
-.ContainerImagens{
+.BoxContainerImages{
 
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(57, 145, 57);
+  background-color: rgb(240, 240, 240);
+  padding-top: 100px;
+  padding-bottom: 130px;
 
+
+}
+
+
+.textoTituloImages{
+
+padding-bottom: 10px;
+text-align: center;
+
+}
+
+
+.ContainerImages{
+
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ 
+ background-color: rgb(240, 240, 240);
+ 
+
+}
+
+.BoxImage{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 70px;
+background-color: white;
+
+
+}
+
+
+
+.buttonsLink{
+
+text-decoration: none;
+color: black;
+padding: 11px;
+border: none;
+background-color: rgb(224, 224, 224);
+margin-top: 15px;
+border-radius: 18px;
+font-size: 17px;
+transition: 0.4s;
+-webkit-text-stroke: 0.5px
+
+
+}
+
+.buttonsLink:hover{
+
+text-decoration: none;
+color: white;
+background-color: rgb(125, 190, 125);
+color: white;
+transition: 0.4s;
+font-size: 17px;
+-webkit-text-stroke: 0.5px
+
+
+}
+
+
+
+.image{
+
+
+background-color: white;
+padding: 20px;
+
+
+
+}
+
+.textoImage{
+
+  max-width: 250px;
+  text-align: center;
+  background-color: white;
+  
+  -webkit-text-stroke: 0.3px
+  
+
+  
 
 }
 
