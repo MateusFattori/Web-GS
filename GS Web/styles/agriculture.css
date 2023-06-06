@@ -31,6 +31,8 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: space-around;
     padding: 15px;
+    background-color: white;
+
 }
 
 a{
@@ -55,61 +57,158 @@ transition: 0.5s;
 
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+.Agricultura{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagesAgriculture/sustentabilidade.png);
+    background-size: cover;
+    color: white;
+
 }
 
-h1 {
-    color: #333;
-    text-align: center;
-    margin-top: 0;
+.glass-effect{
+
+    margin-left: 60%;
+    width: 40%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+  
+  }
+  
+  .textoBox{
+  
+    color: white;
+    font-size: 90px;
+    padding: 40px;
+    padding-top: 55px;
+  
+  }
+
+.principios{
+
+    line-height: 30px;
+    padding: 40px;
+
+}
+  
+.boxImages{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+
 }
 
-p {
-    color: #555;
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
 
-img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-}
+ 
 
-ul {
-    color: #555;
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
+.brandwhite{
 
-ul li {
-    margin-bottom: 10px;
-}
+    width: 150px;
+    
+    }
+    
+    
+footer{
+    
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    color: white;
+    
+    }
+    
+.integrantes{
+    
+    padding-left: 40px;
+    font-size: 14px;
+    
+    
+    }
+    
 
-ul li:before {
-    content: "•";
-    margin-right: 5px;
-    color: #4CAF50;
-}
+    @media screen and (max-width: 768px) {
 
-.section-title {
-    color: #333;
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
+        .BoxContainerCabecalho {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .BoxContainerCabecalho .logo {
+            margin-bottom: 10px;
+        }
+    
+        .linkNav {
+        
+            font-size: 15px;
+        }
+    
+        .Agricultura{
+            background-size: cover;
+        }
+    
+        .glass-effect {
+         
+            margin-left: 0;
+            width: 100%;
+        }
+    
+        .textoBox {
+        
+            font-size: 60px;
+            padding: 20px;
+            padding-top: 35px;
+        }
+    
+        .principios {
+         
+            padding: 20px;
+        }
+    
+        .boxImages {
+        
+            flex-direction: column;
+        }
+    
+        .brandwhite {
+        
+            width: 120px;
+        }
+    
+        .integrantes {
+        
+            font-size: 12px;
+        }
+    }
 
-.sub-title {
-    color: #333;
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        
+    
+        .textoBox {
+            
+            font-size: 75px;
+            padding: 30px;
+            padding-top: 45px;
+        }
+    
+        .principios {
+            
+            padding: 30px;
+        }
+    
+        .brandwhite {
+            
+            width: 140px;
+        }
+    
+        .integrantes {
+            
+            font-size: 14px;
+        }
+    }

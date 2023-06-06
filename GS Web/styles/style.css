@@ -219,4 +219,117 @@ line-height: 20px;
 
 }
 
+@media (max-width: 600px) {
+  .BoxContainerCabecalho {
+    flex-direction: column;
+    padding: 40px 0;
+  }
+
+  .linkNav {
+    font-size: 14px;
+  }
+
+  .glass-effect {
+    margin-left: 0;
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+  }
+
+  .textoBox {
+    font-size: 40px;
+    padding: 20px;
+    padding-top: 35px;
+  }
+
+  .texto2Box {
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .BoxContainerImages {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+
+  .textoTituloImages {
+    font-size: 22px;
+  }
+
+  .ContainerImages {
+    flex-direction: column;
+  }
+
+  .BoxImage {
+    padding-bottom: 50px;
+  }
+
+  .buttonsLink {
+    font-size: 14px;
+  }
+
+  .image {
+    padding: 10px;
+  }
+
+  .textoImage {
+    max-width: 180px;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .integrantes {
+    padding-left: 20px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .BoxContainerCabecalho {
+    padding: 10px;
+  }
+
+  .textoBox {
+    font-size: 50px;
+    padding: 30px;
+    padding-top: 45px;
+  }
+
+  .texto2Box {
+    font-size: 24px;
+    padding: 30px;
+  }
+
+  .BoxContainerImages {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  .textoTituloImages {
+    font-size: 26px;
+  }
+
+  .BoxImage {
+    padding-bottom: 60px;
+  }
+
+  .buttonsLink {
+    font-size: 16px;
+  }
+
+  .image {
+    padding: 15px;
+  }
+
+  .textoImage {
+    max-width: 220px;
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .integrantes {
+    padding-left: 30px;
+    font-size: 14px;
+  }
+}
 
